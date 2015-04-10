@@ -937,5 +937,28 @@ function get_ssl_avatar($avatar) {
 	$avatar = preg_replace('/.*\/avatar\/(.*)\?s=([\d]+)&.*/', '<img src="https://secure.gravatar.com/avatar/$1?s=$2" class="avatar avatar-$2" height="$2" width="$2">', $avatar);
 	return $avatar;
 }
+
+function add_editor_buttons( $buttons ) {
+        $buttons[] = 'fontselect';
+        $buttons[] = 'fontsizeselect';
+        $buttons[] = 'cleanup';
+        $buttons[] = 'styleselect';
+        $buttons[] = 'hr';
+        $buttons[] = 'del';
+        $buttons[] = 'sub';
+        $buttons[] = 'sup';
+        $buttons[] = 'copy';
+        $buttons[] = 'paste';
+        $buttons[] = 'cut';
+        $buttons[] = 'anchor';
+        $buttons[] = 'backcolor';
+        $buttons[] = 'wp_page';
+        $buttons[] = 'charmap';
+        $buttons[] = 'strikethrough';
+        return $buttons;
+    }
+    
+add_filter("mce_buttons_3", "add_editor_buttons");
+
 add_filter('get_avatar', 'get_ssl_avatar');
 ?>
