@@ -18,7 +18,7 @@ msgstr ""
 #: 404.php:16
 #: loop.php:33
 msgid "Not Found"
-msgstr "博客比较懒，暂未更新。"
+msgstr "未找到"
 
 #: 404.php:18
 msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
@@ -317,7 +317,7 @@ msgstr "较新日志 <span class=\"meta-nav\">&rarr;</span>"
 
 #: loop.php:35
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
-msgstr "抱歉，博主睡觉中，若有需要，请Email博客 ， j@wonhsi.com，博客将在第一时间回复。"
+msgstr "抱歉，没有找到您要查看的归档。可能搜索功能会帮助您找到一些相关文章。"
 
 #: loop.php:60
 #: loop.php:92
