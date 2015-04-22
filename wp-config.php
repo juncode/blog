@@ -24,7 +24,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'antiy?918');
 
 /** MySQL主机 */
-define('DB_HOST', '192.168.12.210');
+define('DB_HOST', '192.168.12.88');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
