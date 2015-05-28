@@ -21,10 +21,10 @@ define('DB_NAME', 'wordpress');
 define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'antiy?918');
+define('DB_PASSWORD', 'xxxxxxx');
 
 /** MySQL主机 */
-define('DB_HOST', '192.168.12.88');
+define('DB_HOST', 'xx.88');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
