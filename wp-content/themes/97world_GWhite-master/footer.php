@@ -23,7 +23,7 @@
 ?>
 
 			<div id="site-info">
-				<span class="wp_credit"><a href="<?php echo esc_url( __('http://wordpress.org/', 'twentyten') ); ?>" title="<?php esc_attr_e('Semantic Personal Publishing Platform', 'twentyten'); ?>" rel="generator"><?php _e('Powered By Wordpress', 'Twenty Ten' ); ?></a></span> Copyright &copy; 2010 <a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>. Theme G-White by Alan Ouyang.
+                            <span class="wp_credit"><a href="<?php echo esc_url( __('http://wordpress.org/', 'twentyten') ); ?>" title="<?php esc_attr_e('Semantic Personal Publishing Platform', 'twentyten'); ?>" rel="generator"><?php _e('Powered By Wordpress', 'Twenty Ten' ); ?></a></span> Copyright &copy; 2015 <a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>.&nbsp;&nbsp; <a href="<?php echo site_url('/wp-admin') ?>" ><?php bloginfo('admin_email');?></a>
 			</div><!-- #site-info -->
 
 			<div id="site-generator">
