@@ -100,7 +100,6 @@ function login_header( $title = 'Log In', $message = '', $wp_error = '' ) {
 		$login_header_url   = __( 'https://wordpress.org/' );
 		$login_header_title = __( 'Powered by WordPress' );
 	}
-
 	/**
 	 * Filter link URL of the header logo above login form.
 	 *
@@ -148,7 +147,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = '' ) {
 	</head>
 	<body class="login <?php echo esc_attr( implode( ' ', $classes ) ); ?>">
 	<div id="login">
-		<h1><a href="<?php echo esc_url( $login_header_url ); ?>" title="<?php echo esc_attr( $login_header_title ); ?>" tabindex="-1"><?php bloginfo( 'name' ); ?></a></h1>
+            <h1><a href="<?php echo home_url(); ?>" title="<?php echo "天马行空基地"; ?>" tabindex="-1"><?php bloginfo( 'name' ); ?></a></h1>
 	<?php
 
 	unset( $login_header_url, $login_header_title );
@@ -854,7 +853,6 @@ default:
 	 * @param string $redirect_to Redirect destination URL.
 	 */
 	$errors = apply_filters( 'wp_login_errors', $errors, $redirect_to );
-
 	// Clear any stale cookies.
 	if ( $reauth )
 		wp_clear_auth_cookie();
